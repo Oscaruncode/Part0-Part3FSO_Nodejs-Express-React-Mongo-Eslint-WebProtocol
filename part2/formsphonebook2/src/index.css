@@ -1,0 +1,19 @@
+.message,.error{
+    fontSize: 20px;
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    background: lightgrey;
+}
+
+.message {
+    color: green;
+    border: 1px solid green;
+
+  }
+
+  .error {
+    color: red;
+    border: 1px solid red;
+  }
+  
