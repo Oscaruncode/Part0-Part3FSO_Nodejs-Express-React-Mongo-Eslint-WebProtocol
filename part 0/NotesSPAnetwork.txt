@@ -1,0 +1,15 @@
+title NotesSPAnetwork
+
+browser->server: https://studies.cs.helsinki.fi/exampleapp/spa GET
+server->browser: html Document
+browser->server: https://studies.cs.helsinki.fi/exampleapp/main.css GET
+server->browser: CSS Document
+browser->server: https://studies.cs.helsinki.fi/exampleapp/spa.js GET
+server->browser: Js Document
+note left of browser: run code and request json notes to server
+browser->server: https://studies.cs.helsinki.fi/exampleapp/data.jsonn GET 
+server->browser: return JSON with an Array of objects whitin notes 
+note left of browser: note ends and display notes section
+browser->server: https://studies.cs.helsinki.fi/favicon.ico GET
+server->browser: text/html (tag <a> with Course Stats) in Cache Code: 200
+
